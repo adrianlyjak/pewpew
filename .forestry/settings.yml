@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: test
+- type: directory
+  path: ''
+  label: Files
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
